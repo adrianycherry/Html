@@ -1,0 +1,45 @@
+<html>
+<head>
+<style>
+body{
+font-size:2rem;
+}
+
+#container{
+	width:1070px;
+	margin: 0 auto;
+	/*display: flex;*/
+	/*flex-direction: row;*/
+	/*flex-direction: column*/
+}
+	#link:hover{
+	color: orange;
+	}
+	#container-texto::first-line{
+	color: blue;
+	text-transform: uppercase;
+	}
+	#container-texto{
+		padding:10px;
+		background-color:orange;
+		border:30px solid #999;
+		margin-top:150px;
+	}
+	
+	
+</style>
+</head>
+<body>
+	<div id="container">
+	<h1>PseudoClasses</h1>
+	<a href="#" id="link">Link</a>
+	
+	<h1>PseudoElementos</h1>
+	<p id="container-texto">
+	"O Sol já se punha quando o velho lobo chegou à beira do rio.
+	Olhou para a água escura, suspirou lembrando-se dos tempos em 
+	que corria livre pela floresta e deu o primeiro salto para a 
+	travessia."
+	</p>
+</body>
+<html>
